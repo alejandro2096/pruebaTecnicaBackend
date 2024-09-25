@@ -1,0 +1,33 @@
+# Ignorar las carpetas de compilación
+bin/
+obj/
+
+# Ignorar la base de datos SQLite
+*.db
+*.db-shm
+*.db-wal
+
+# Archivos de usuario de Visual Studio
+*.user
+*.rsuser
+*.suo
+
+# Archivos de configuración de Visual Studio
+.vscode/
+
+# Archivos de bloqueo de paquetes
+project.lock.json
+project.fragment.lock.json
+
+# Dependencias de NuGet
+*.nupkg
+packages/
+
+# Archivos de backup
+*.bak
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.tmp
